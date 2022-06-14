@@ -1,0 +1,61 @@
+git config --global user.email "ejemplo@gmail.com" -> la primera vez git pedira una identificación
+
+
+Primer comando de inicio
+
+git init -> crea el area de ensayo (stagin area) y el repositorio local.
+
+
+directorio de trabajo
+
+    stagin area -> area temporal de los archivos
+
+    repositorio local -> archivos guardados 
+
+
+git add -> comando de seguimiento a uno o más archivos, lleva internamente el archivo en el directorio al area de ensayo (stagin area), esto no lo vemos.
+
+
+git commit -> comando que traslada el archivo/s de stagin area al repositorio local, donde git toma la instantanea del archivo, es decir el respaldo por fin.
+
+
+git bash here -> comando del menu contextual, que aparece despúes de instalar git por primera vez, en el directorio en el que nos encontremos, clickeamos boton derecho del mouese, y git bash se abrira en ese lugar.
+
+
+git status -> nos da un listado de todos los archivos en el directorio donde estamos trabajando, los archivos en rojo significan que no estan en seguimiento, por tanto no se pueden respaldar.
+
+
+git status -s -> es parecido al anterior las archivos y directorios sin seguimiento les coloca unos ?? en rojo detras. Si fue modificado y no se ha respaldado mostrara una M roja pero solo si es un archivo con seguimiento previo. Si se llevo al stagin area sera una M verde.
+
+
+git add index.html -> daría seguimiento al archivo index.html, eso hara que en el status aparezca verde, es decir ahora esta en el stagin area.
+
+
+git commit -m "comienzo del proyecto" -> pasara todos los archivos del stagin area al repositorio local, logrando el respaldo de los mismos. Se usa támbien el comando -m "" para identificar ese commit con un mensaje propio.
+
+
+git log --oneline -> mostrara todas las instantaneas/commits que se han hecho en el proyecto, en forma de pila lo mas reciente arriba.
+
+
+git reset --hard 71077da -> restauro el archivo/archivos a la instantanea/commit con ese número. Para esa entonces no habia ningun h1 y parrafo en el archivo. Pero hara que las instantaneas que le seguian desareceran, es como si viajara en el tiempo al pasado, cuando no habian commits siguientes.
+
+
+git add . -> agrega todos los archivos del directorio al stagin area
+
+
+git commit -am "parrafo y tamaño de fuente" -> con este haremos un add y un commit a la vez.
+
+--------------------------------------------------------------------------------
+
+git commit --amend ->este comando abrira el editor vim, con el podremos cambiar la descripcion del commit previo. 
+
+Usaremos el comando :i para poder modificar, si pulsamos la tecla suprimir aparecera el cursor justo detras de la descripcion del commit, al pusar mas veces ira borrando el mensaje, siguiente daremos escape, :i para volver al modo modificar, escribimos el nuevo mensaje, enter y escape. Finalmente usaremos :wq para guardar y salir. 
+
+Volveremos al git bash, y podemos usar el log para ver los cambios.
+
+--------------------------------------------------------------------------------
+
+
+
+
+
