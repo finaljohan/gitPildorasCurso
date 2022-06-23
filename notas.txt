@@ -47,13 +47,15 @@ git commit -am "parrafo y tamaño de fuente" -> con este haremos un add y un com
 
 --------------------------------------------------------------------------------
 
-git commit --amend ->este comando abrira el editor vim, con el podremos cambiar la descripcion del commit previo. 
+git commit --amend ->este comando abrira el editor vim, con el podremos cambiar la descripcion del commit del head (creo) 
 
 Usaremos el comando :i para poder modificar, si pulsamos la tecla suprimir aparecera el cursor justo detras de la descripcion del commit, al pusar mas veces ira borrando el mensaje, siguiente daremos escape, :i para volver al modo modificar, escribimos el nuevo mensaje, enter y escape. Finalmente usaremos :wq para guardar y salir. 
 
 Volveremos al git bash, y podemos usar el log para ver los cambios.
 
 --------------------------------------------------------------------------------
+
+
 
 
 
