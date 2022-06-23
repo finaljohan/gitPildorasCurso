@@ -70,6 +70,13 @@ aqui hubo un problema, desde finales de 2021 no se puede acceder asi, hay que us
 cuando lo creas entonces, debes copiar el token, y este hara del password de ahora en adelante, eso si solo lo puedes copiar una vez, despues git hub no dejara que lo veas de nuevo, por eso lo guarde en un txt en el escritorio
 
 
+esta nota la estoy editanto desde git hub, usando el icono del lapicero, al terminar le damos en commit changes, luego para que esto se actualize en el repositorio local usamos la instruccion:
+
+git pull
+
+
+
+
 
 
 
