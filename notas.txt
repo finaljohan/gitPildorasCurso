@@ -55,13 +55,19 @@ Volveremos al git bash, y podemos usar el log para ver los cambios.
 
 --------------------------------------------------------------------------------
 
-subir a github 
+subir a github primera vez
 
 usaremos la opcion …or push an existing repository from the command line
 
 git remote add origin https://github.com/finaljohan/gitPildorasCurso.git
------git branch -M main ignoramos esta linea
+git branch -M main 
 git push -u origin main
+
+de esta manera git bash nos pedira el usuario y contraseña de git hub no es como lo de la llave ssh que hacia antes
+
+aqui hubo un problema, desde finales de 2021 no se puede acceder asi, hay que usar un token de seguridad, se crea en settings del usuario, developer settings, personal acces tokens, documentacion:  https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+cuando lo creas entonces, debes copiar el token, y este hara del password de ahora en adelante, eso si solo lo puedes copiar una vez, despues git hub no dejara que lo veas de nuevo, por eso lo guarde en un txt en el escritorio
 
 
 
