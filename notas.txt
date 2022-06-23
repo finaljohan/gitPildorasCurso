@@ -75,6 +75,11 @@ esta nota la estoy editanto desde git hub, usando el icono del lapicero, al term
 git pull
 
 
+los commit que realiza git hub son del tipo Update notas.txt, Update estilos.css
+
+lo malo es que de momento aunhay que usar el user y el token
+
+
 
 
 
