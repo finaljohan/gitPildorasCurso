@@ -55,6 +55,14 @@ Volveremos al git bash, y podemos usar el log para ver los cambios.
 
 --------------------------------------------------------------------------------
 
+subir a github 
+
+usaremos la opcion …or push an existing repository from the command line
+
+git remote add origin https://github.com/finaljohan/gitPildorasCurso.git
+-----git branch -M main ignoramos esta linea
+git push -u origin main
+
 
 
 
