@@ -79,6 +79,18 @@ los commit que realiza git hub son del tipo Update notas.txt, Update estilos.css
 
 lo malo es que de momento aunhay que usar el user y el token
 
+-----------------------------de aqui--------------------------------------------
+git tag 23-06-22v1 -m "versión 1 del proyecto" con esto crearemos un tag que indica que esta es la version 1 del proyecto o version 1.0m coloque la fecha de hoy y un v1
+
+cuando usamos el log veremos el tag aparecer
+
+para subirlo a git hub usaremos el comando, esto hara que suba el tag con lo que tenga el ultimo commit creo, es decir, pueden haver archivos en el stagin area, y que no los tome en cuenta, el tag solo tomara los commits
+git push --tags
+
+el tag viene siendo a ser como un adorno, no tiene peso como los commits, los tags son mas como un indicativo de una version del proyecto que ya se puede descargar, por ejemplo esta version no tiene nada de lo de tags en su notas.txt, mas adelante cuando commit de este contenido y haga otro tag si que tendra los cambios
+
+----------------------hasta aca yo escribi pero en nigun momento hice add o commit por tanto estas lineas no se reflejan con el tag creado anteriormente, es decir esto le hara push despues--------------------------------------------------------------- 
+
 
 
 
